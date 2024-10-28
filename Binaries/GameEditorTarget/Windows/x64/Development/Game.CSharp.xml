@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Game.CSharp</name>
+    </assembly>
+    <members>
+        <member name="M:ExitOnEsc.OnUpdate">
+            <inheritdoc />
+        </member>
+        <member name="T:Game.GrabOBJ">
+            <summary>
+            GrabOBJ Script.
+            </summary>
+        </member>
+        <member name="M:Game.GrabOBJ.OnStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.GrabOBJ.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.GrabOBJ.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.GrabOBJ.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="T:Game.Killzone">
+            <summary>
+            Killzone Script.
+            </summary>
+        </member>
+        <member name="M:Game.Killzone.OnStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Killzone.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Killzone.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Killzone.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="M:PerfCounter.OnEnable">
+            <inheritdoc />
+        </member>
+        <member name="M:PerfCounter.OnDisable">
+            <inheritdoc />
+        </member>
+        <member name="M:PerfCounter.OnUpdate">
+            <inheritdoc />
+        </member>
+        <member name="T:PlatformSelector">
+            <summary>
+            Enables the actor that is attached to on a given set of allowed platforms.
+            </summary>
+        </member>
+        <member name="F:PlatformSelector.Platforms">
+            <summary>
+            List of platforms to scale their quality down.
+            </summary>
+        </member>
+        <member name="F:PlatformSelector.Invert">
+            <summary>
+            Inverts the Platforms list check.
+            </summary>
+        </member>
+        <member name="F:PlatformSelector.PreviewInEditor">
+            <summary>
+            Enables visual preview in Editor (during play-mode).
+            </summary>
+        </member>
+        <member name="F:PlatformSelector.UseLowGraphicsQuality">
+            <summary>
+            Forces graphics quality to Low.
+            </summary>
+        </member>
+        <member name="F:PlatformSelector.DisableDynamicShadows">
+            <summary>
+            Disables any dynamic shadows on all lights in the level (sets ShadowsCastingMode.StaticOnly).
+            </summary>
+        </member>
+        <member name="M:PlatformSelector.OnAwake">
+            <inheritdoc />
+        </member>
+        <member name="M:PlayerScript.OnStart">
+            <summary>
+            Adds the movement and rotation to the camera (as input).
+            </summary>
+            <param name="horizontal">The horizontal input.</param>
+            <param name="vertical">The vertical input.</param>
+            <param name="pitch">The pitch rotation input.</param>
+            <param name="yaw">The yaw rotation input.</param>
+            
+        </member>
+        <member name="T:VirtualCamera">
+            <summary>
+            Script for camera movement and rotation control via virtual thumb sticks on a screen (for mobile platforms).
+            </summary>
+        </member>
+        <member name="M:VirtualCamera.OnEnable">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualCamera.OnUpdate">
+            <inheritdoc />
+        </member>
+        <member name="P:VirtualThumbStick.IsPressed">
+            <summary>
+            Gets a value indicating whether this thumb is being pressed (by mouse or touch).
+            </summary>
+        </member>
+        <member name="P:VirtualThumbStick.Input">
+            <summary>
+            Gets the thumb input (2D direction).
+            </summary>
+        </member>
+        <member name="M:VirtualThumbStick.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VirtualThumbStick"/> class.
+            </summary>
+        </member>
+        <member name="M:VirtualThumbStick.OnPressBegin(FlaxEngine.Float2)">
+            <summary>
+            Called when thumb starts to be pressed by the used (via mouse or touch).
+            </summary>
+            <param name="location">The input position (in control space).</param>
+        </member>
+        <member name="M:VirtualThumbStick.OnPressMove(FlaxEngine.Float2)">
+            <summary>
+            Called when thumb input moves but continues to be pressed (via mouse or touch).
+            </summary>
+            <param name="location">The input position (in control space).</param>
+        </member>
+        <member name="M:VirtualThumbStick.OnPressEnd">
+            <summary>
+            Called when thumb ends to be pressed by the used (via mouse or touch).
+            </summary>
+        </member>
+        <member name="M:VirtualThumbStick.PerformLayout(System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.Draw">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnMouseLeave">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnMouseDown(FlaxEngine.Float2,FlaxEngine.MouseButton)">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnMouseMove(FlaxEngine.Float2)">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnMouseUp(FlaxEngine.Float2,FlaxEngine.MouseButton)">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnTouchDown(FlaxEngine.Float2,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnTouchMove(FlaxEngine.Float2,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnTouchUp(FlaxEngine.Float2,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:VirtualThumbStick.OnTouchLeave">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
